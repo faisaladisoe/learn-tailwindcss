@@ -35,10 +35,10 @@
       </nav>
     </div>
   
-    <main class="px-16 py-6">
-      <div>
+    <main class="px-16 py-6 bg-gray-300">
+      <div class="flex justify-center md:justify-end">
         <a href="#" class="text-primary">Log in</a>
-        <a href="#" class="text-primary">Sign up</a>
+        <a href="#" class="text-primary ml-2">Sign up</a>
       </div>
 
       <header>
@@ -51,11 +51,34 @@
   
         <div class="mt-8">
           <!-- cards go here -->
-          <div> 
-            <img src="img/stew.jpg" alt="stew">
-            <div>
-              <span>5 Bean Chili Stew</span>
-              <span>Recipe by Mario</span>
+          <div class="card"> 
+            <img src="img/stew.jpg" alt="stew" class="h-32 md:h-48 w-full object-cover">
+            <div class="m-4">
+              <span class="font-bold">5 Bean Chili Stew</span>
+              <span class="block text-gray-500 text-sm">Recipe by Mario</span>
+            </div>
+            <div class="badge">
+              <span>15 mins</span>
+            </div>
+          </div>
+          <div class="card"> 
+            <img src="img/noodles.jpg" alt="noodles" class="h-32 md:h-48 w-full object-cover">
+            <div class="m-4">
+              <span class="font-bold">Yummy Vegetables Noodle</span>
+              <span class="block text-gray-500 text-sm">Recipe by Mario</span>
+            </div>
+            <div class="badge">
+              <span>10 mins</span>
+            </div>
+          </div>
+          <div class="card"> 
+            <img src="img/curry.jpg" alt="curry" class="h-32 md:h-48 w-full object-cover">
+            <div class="m-4">
+              <span class="font-bold">Hot and Tasty Pork Curry</span>
+              <span class="block text-gray-500 text-sm">Recipe by Mario</span>
+            </div>
+            <div class="badge">
+              <span>7 mins</span>
             </div>
           </div>
         </div>
@@ -67,7 +90,7 @@
         </div>
       </div>
 
-      <div class="mt-12">
+      <div class="mt-12 flex justify-center">
         <div class="bg-secondary-100 text-secondary-200">Load more</div>
       </div>    
     </main>
